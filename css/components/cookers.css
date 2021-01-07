@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-left: 5px;
+    margin-left: 15px;
     margin-bottom: 30px;
 }
 .cookers-row__icon {
@@ -43,4 +43,12 @@
     width: 150px;
     border-radius: 15px;
     margin: 5px 10px
+}
+.second-row {
+    width: 50%;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.second-row .cookers-row__icon {
+
 }
