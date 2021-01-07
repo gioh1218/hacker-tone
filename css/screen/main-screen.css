@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-
+}
+.foods-screen-row {
+    justify-content: space-around;
 }
 .foods-screen-title {
     margin-bottom: 20px;

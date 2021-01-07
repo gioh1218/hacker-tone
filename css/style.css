@@ -3,7 +3,7 @@
 @import "components/cookers.css";
 @import "components/header-screen.css";
 
-@import "screen/main-screen.css"
+@import "screen/main-screen.css";
 
 body {
     height: 300vh;

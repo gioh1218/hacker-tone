@@ -10,6 +10,9 @@
     flex-direction: column;
     align-items: center;
 }
+.cookers-row__icon span {
+    color: rgba(0, 0, 0, 0.6);
+}
 .cookers-row__icon-image {
     display: flex;
     justify-content: center;
@@ -24,31 +27,4 @@
 }
 .cookers-row__icon span {
     margin-top: 10px;
-}
-.foods-screen {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-}
-.foods-screen-title {
-    margin-bottom: 20px;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    margin-left: 40px;
-}
-.foods-screen-row img {
-    width: 150px;
-    border-radius: 15px;
-    margin: 5px 10px
-}
-.second-row {
-    width: 50%;
-    margin: 0px auto;
-    justify-content: space-between;
-}
-.second-row .cookers-row__icon {
-
 }
