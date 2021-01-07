@@ -1,0 +1,19 @@
+.foods-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.foods-screen-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin-left: 40px;
+}
+.foods-screen-row img {
+    width: 150px;
+    border-radius: 15px;
+    margin: 5px 10px
+}

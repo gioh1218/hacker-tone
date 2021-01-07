@@ -1,0 +1,31 @@
+.search {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+.search input {
+    padding: 14px;
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.search .search__column:first-child {
+    width: 15%;
+}
+.search .search__column:nth-child(2) {
+    width: 70%;
+    position: relative;
+}
+.search .search__column:nth-child(2) i {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.search .search__column:last-child {
+    width: 15%;
+}
